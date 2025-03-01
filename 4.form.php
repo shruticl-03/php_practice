@@ -10,7 +10,7 @@
         
         <form action="includes/formhandler.php" method="post"> 
             <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname" placeholder="Firstname...">
+            <input required type="text" name="firstname" id="firstname" placeholder="Firstname...">
 
             <label for="lastname">Last Name</label>
             <input type="text" name="lastname" id="lastname" placeholder="Lastname...">
